@@ -9,6 +9,9 @@ module.exports = {
               runtime: "automatic",
             },
           },
+          experimental: {
+            plugins: [["@swc/plugin-styled-components", {}]],
+          },
         },
       },
     ],

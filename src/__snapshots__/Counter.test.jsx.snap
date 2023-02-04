@@ -2,10 +2,13 @@
 
 exports[`renders correctly 1`] = `
 [
-  <h1>
+  <h1
+    className="Counter__Heading-sc-fa0be556-0 dqbeDJ"
+  >
     0
   </h1>,
   <button
+    className="Counter__Button-sc-fa0be556-1 kzNsYY"
     onClick={[Function]}
   >
     Increment

@@ -3,6 +3,9 @@
     "parser": {
       "syntax": "ecmascript",
       "jsx": true
+    },
+    "experimental": {
+      "plugins": [["@swc/plugin-styled-components", {}]]
     }
   }
 }
