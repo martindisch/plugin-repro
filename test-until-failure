@@ -2,7 +2,7 @@
 
 # Run tests until encountering failure
 
-until ! npm test
+until ! ./node_modules/.bin/jest
 do
     : # no-op
 done
