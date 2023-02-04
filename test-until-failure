@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Run tests until encountering failure
+
+until ! npm test
+do
+    : # no-op
+done
